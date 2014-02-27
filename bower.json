@@ -2,6 +2,7 @@
   "name": "talker",
   "version": "0.1",
   "description": "Angular $log enhancer",
+  "main": "./talker-0.1.min.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
