@@ -1,6 +1,6 @@
 # Talker
 
-Enhance AngularJS logger. Talker add hooks and decorating features to the logger and provides some (localStorage hook, HTTP hook, alert hook, datetime decorator).
+Enhance AngularJS logger. Talker adds hooks and decorating features to the logger and provides some (localStorage hook, HTTP hook, alert hook, datetime decorator).
 
 Installation
 ------------
@@ -48,6 +48,7 @@ You can also specify a log type:
 $log.before('info', function(message) {
   // I'm triggered before $log.info receive the log
 });
+```
 
 The after hook works the same:
 
@@ -55,6 +56,7 @@ The after hook works the same:
 $log.after(function(message) {
   // I'm triggered after $log receive the log
 });
+```
 
 Talker provides 3 hooks : `tkAlertHook`, `tkLocalStorageHook`, `tkHttpHook`. They are available in your application as services, and some are configurable with `config` :
 
