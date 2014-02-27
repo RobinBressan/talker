@@ -95,6 +95,11 @@ module.exports = function (grunt) {
                     browsers: browsers || ['Chrome']
                 },
             },
+            travis: {
+                configFile: 'config/karma.conf.js',
+                singleRun: true,
+                browsers: ['PhantomJS']
+            },
             watch: {
                 options: {
                     configFile: '<%= testFiles.karmaUnit %>',
@@ -128,7 +133,7 @@ module.exports = function (grunt) {
             options: {
                 banner: '/***********************************************\n' +
                     '* Talker JavaScript Library\n' +
-                    '* Authors: https://github.com/robinbressan/talker/blob/master/README.md \n' +
+                    '* Authors: https://github.com/RobinBressan/talker/blob/master/README.md \n' +
                     '* License: MIT (http://www.opensource.org/licenses/mit-license.php)\n' +
                     '* Compiled At: <%= grunt.template.today("mm/dd/yyyy HH:MM") %>\n' +
                     '***********************************************/\n' +
@@ -227,7 +232,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
-    grunt.registerTask('test', ['jshint', 'karma:unit']);
+    grunt.registerTask('test', ['jshint', 'karma:travis']);
 
     grunt.registerTask('testwatch', ['jshint', 'karma:watch', 'watch']);
 

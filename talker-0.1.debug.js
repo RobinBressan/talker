@@ -1,8 +1,8 @@
 /***********************************************
 * Talker JavaScript Library
-* Authors: https://github.com/robinbressan/talker/blob/master/README.md 
+* Authors: https://github.com/RobinBressan/talker/blob/master/README.md
 * License: MIT (http://www.opensource.org/licenses/mit-license.php)
-* Compiled At: 02/27/2014 17:44
+* Compiled At: 02/27/2014 21:55
 ***********************************************/
 (function() {
 'use strict';
