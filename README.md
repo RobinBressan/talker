@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RobinBressan/talker.png?branch=master)](https://travis-ci.org/RobinBressan/talker)
+
 # Talker
 
 Enhance AngularJS logger. Talker adds hooks and decorating features to the logger and provides some (localStorage hook, HTTP hook, alert hook, datetime decorator).
