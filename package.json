@@ -1,6 +1,6 @@
 {
   "name": "talker",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Angular $log enhancer",
   "repository": "https://github.com/RobinBressan/talker",
   "scripts": {
