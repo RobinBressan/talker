@@ -247,11 +247,6 @@ module.exports = function (grunt) {
     // Old default task
     grunt.registerTask('build', ['concat', 'uglify']);
 
-    // Default task(s).
-    grunt.registerTask('default', 'No default task', function() {
-        grunt.log.write('The old default task has been moved to "build" to prevent accidental triggering');
-    });
-
     grunt.registerTask('debug', ['concat:debug']);
     grunt.registerTask('prod', ['concat:prod', 'uglify']);
     grunt.registerTask('version', ['concat:version', 'uglify:version']);

@@ -2,7 +2,10 @@
   "name": "talker",
   "version": "0.1",
   "description": "Angular $log enhancer",
-  "repository": "https://github.com/marmelab/talker",
+  "repository": "https://github.com/RobinBressan/talker",
+  "scripts": {
+      "test": "./scripts/test.sh"
+  },
   "devDependencies": {
     "phantomjs" : "~1.9",
     "karma" : "~0.10",
