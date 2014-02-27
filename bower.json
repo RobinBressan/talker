@@ -1,0 +1,17 @@
+{
+  "name": "talker",
+  "version": "0.1",
+  "description": "Angular $log enhancer",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "*",
+    "angular-mocks": "~1.2.1"
+  }
+}
