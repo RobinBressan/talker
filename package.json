@@ -4,7 +4,7 @@
   "description": "Angular $log enhancer",
   "repository": "https://github.com/RobinBressan/talker",
   "scripts": {
-      "test": "./scripts/test.sh"
+      "test": "./node_modules/karma/bin/karma start ./config/karma.conf.js"
   },
   "devDependencies": {
     "phantomjs" : "~1.9",
