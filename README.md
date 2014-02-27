@@ -48,7 +48,7 @@ $log.before(function(message) {
 ```
 Hooks with higher priority are called first.
 
-You can also specify a log type:
+You can also specify a log type (info, log, warn, error, debug):
 
 ```javascript
 $log.before('info', function(message) {
