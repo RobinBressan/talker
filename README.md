@@ -11,6 +11,12 @@ Install it with bower:
 bower install talker --save
 ```
 
+And include it :
+
+```html
+  <script src="/app/bower_components/talker/talker-0.1.min.js"></script>
+```
+
 Usage
 -----
 

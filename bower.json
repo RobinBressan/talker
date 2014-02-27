@@ -8,7 +8,11 @@
     "node_modules",
     "app/bower_components",
     "test",
-    "tests"
+    "config",
+    "src",
+    "scripts",
+    ".*",
+    "GruntFile.js"
   ],
   "devDependencies": {
     "angular": "*",
