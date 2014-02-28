@@ -14,7 +14,7 @@ bower install talker --save
 And include it :
 
 ```html
-  <script src="/app/bower_components/talker/talker-0.1.min.js"></script>
+  <script src="bower_components/talker/talker-0.1.0.min.js"></script>
 ```
 
 Usage
