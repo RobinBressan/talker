@@ -20,7 +20,7 @@ And include it :
 Usage
 -----
 
-First add the talker dependecy to your application:
+First add the talker dependency to your application:
 
 ```javascript
 angular.module('myApp', ['talker']);
